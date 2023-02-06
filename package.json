@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "name": "token-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "ts-node server.ts",
+    "dev": "nodemon -x ts-node server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisKlopp/token-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisKlopp/token-express/issues"
+  },
+  "engines": {
+    "node": "v14.16.1",
+    "npm": "6.14.12"
+  },
+  "homepage": "https://github.com/LuisKlopp/token-express#readme",
+  "description": ""
+}
